@@ -16,7 +16,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 app.use(routes);
 
-const PORT = process.env.PORT ;
+const PORT = process.env.PORT;
 
 
 app.listen(PORT, () =>
